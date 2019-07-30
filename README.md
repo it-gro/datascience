@@ -28,6 +28,10 @@ Python debugger (pdb) - [blog post](https://www.blog.pythonlibrary.org/2018/10/1
 [nbdime](https://github.com/jupyter/nbdime) - Diff two notebook files, Alternative GitHub App: [ReviewNB](https://www.reviewnb.com/).  
 [RISE](https://github.com/damianavila/RISE) - Turn Jupyter notebooks into presentations.  
 
+#### Helpful
+[pyprojroot](https://github.com/chendaniely/pyprojroot) - Helpful `here()` command from R.  
+[intake](https://github.com/intake/intake) - Loading datasets made easier, [talk](https://www.youtube.com/watch?v=s7Ww5-vD2Os&t=33m40s). 
+
 #### Extraction
 [textract](https://github.com/deanmalmgren/textract) - Extract text from any document.  
 [camelot](https://github.com/socialcopsdev/camelot) - Extract text from PDF.  
@@ -37,6 +41,7 @@ Python debugger (pdb) - [blog post](https://www.blog.pythonlibrary.org/2018/10/1
 [sparkit-learn](https://github.com/lensacom/sparkit-learn), [spark-deep-learning](https://github.com/databricks/spark-deep-learning) - ML frameworks for spark.  
 [koalas](https://github.com/databricks/koalas) - Pandas API on Apache Spark.  
 [dask](https://github.com/dask/dask), [dask-ml](http://ml.dask.org/) - Pandas `DataFrame` for big data and machine learning library, [resources](https://matthewrocklin.com/blog//work/2018/07/17/dask-dev), [talk1](https://www.youtube.com/watch?v=ccfsbuqsjgI), [talk2](https://www.youtube.com/watch?v=RA_2qdipVng), [notebooks](https://github.com/dask/dask-ec2/tree/master/notebooks), [videos](https://www.youtube.com/user/mdrocklin).  
+[dask-gateway](https://github.com/jcrist/dask-gateway) - Managing dask clusters.  
 [turicreate](https://github.com/apple/turicreate) - Helpful `SFrame` class for out-of-memory dataframes.  
 [h2o](https://github.com/h2oai/h2o-3) - Helpful `H2OFrame` class for out-of-memory dataframes.  
 [datatable](https://github.com/h2oai/datatable) - Data Table for big data support.  
@@ -78,6 +83,7 @@ Python debugger (pdb) - [blog post](https://www.blog.pythonlibrary.org/2018/10/1
 
 #### Talks
 [Inverse Propensity Weighting](https://www.youtube.com/watch?v=SUq0shKLPPs)  
+[Dealing with Selection Bias By Propensity Based Feature Selection](https://www.youtube.com/watch?reload=9&v=3ZWCKr0vDtc)  
 
 #### Exploration and Cleaning
 [Checklist](https://github.com/r0f1/ml_checklist).  
@@ -125,9 +131,9 @@ Tutorials - [1](https://www.kaggle.com/residentmario/automated-feature-selection
 [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) - t-distributed Stochastic Neighbor Embedding (t-SNE), [intro](https://distill.pub/2016/misread-tsne/). Faster implementations: [lvdmaaten](https://lvdmaaten.github.io/tsne/), [MulticoreTSNE](https://github.com/DmitryUlyanov/Multicore-TSNE).  
 [sklearn](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html) - Truncated SVD (aka LSA).  
 [mdr](https://github.com/EpistasisLab/scikit-mdr) - Dimensionality reduction, multifactor dimensionality reduction (MDR).  
-[umap](https://github.com/lmcinnes/umap) - Uniform Manifold Approximation and Projection, [talk](https://www.youtube.com/watch?v=nq6iPZVUxZU).  
+[umap](https://github.com/lmcinnes/umap) - Uniform Manifold Approximation and Projection, [talk](https://www.youtube.com/watch?v=nq6iPZVUxZU), [explorer](https://github.com/GrantCuster/umap-explorer).  
 [FIt-SNE](https://github.com/KlugerLab/FIt-SNE) - Fast Fourier Transform-accelerated Interpolation-based t-SNE.  
-[scikit-tda](https://github.com/scikit-tda/scikit-tda) - Topological Data Analysis, [paper](https://www.nature.com/articles/srep01236), [talk](https://www.youtube.com/watch?v=F2t_ytTLrQ4).  
+[scikit-tda](https://github.com/scikit-tda/scikit-tda) - Topological Data Analysis, [paper](https://www.nature.com/articles/srep01236), [talk](https://www.youtube.com/watch?v=F2t_ytTLrQ4), [talk](https://www.youtube.com/watch?v=AWoeBzJd7uQ).  
 
 #### Visualization
 [All charts](https://datavizproject.com/), [Austrian monuments](https://github.com/njanakiev/austrian-monuments-visualization).  
@@ -162,6 +168,7 @@ Tutorials - [1](https://www.kaggle.com/residentmario/automated-feature-selection
 
 #### Geopraphical Tools
 [folium](https://github.com/python-visualization/folium) - Plot geographical maps using the Leaflet.js library, [jupyter plugin](https://github.com/jupyter-widgets/ipyleaflet).  
+[gmaps](https://github.com/pbugnion/gmaps) - Google Maps for Jupyter notebooks.  
 [stadiamaps](https://stadiamaps.com/) - Plot geographical maps.  
 [datashader](https://github.com/bokeh/datashader) - Draw millions of points on a map.  
 [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.BallTree.html) - BallTree, [Example](https://tech.minodes.com/experiments-with-in-memory-spatial-radius-queries-in-python-e40c9e66cf63).  
@@ -228,13 +235,22 @@ Embeddings - [GloVe](https://nlp.stanford.edu/projects/glove/) ([[1](https://www
 ##### Papers
 [Search Engine Correlation](https://arxiv.org/pdf/1107.2691.pdf)  
 
+#### Biology
+
+##### Sequencing
+[scanpy](https://github.com/theislab/scanpy) - Analyze single-cell gene expression data, [tutorial](https://github.com/theislab/single-cell-tutorial).  
+
+##### Image-related
+[mahotas](http://luispedro.org/software/mahotas/) - Image processing (Bioinformatics), [example](https://github.com/luispedro/python-image-tutorial/blob/master/Segmenting%20cell%20images%20(fluorescent%20microscopy).ipynb).   
+[imagepy](https://github.com/Image-Py/imagepy) - Software package for bioimage analysis.  
+[CellProfiler](https://github.com/CellProfiler/CellProfiler) - Biological image analysis.   
+[imglyb](https://github.com/imglib/imglyb) - Viewer for large images, [talk](https://www.youtube.com/watch?v=Ddo5z5qGMb8), [slides](https://github.com/hanslovsky/scipy-2019/blob/master/scipy-2019-imglyb.pdf).  
+[microscopium](https://github.com/microscopium/microscopium) - Unsupervised clustering of images + viewer, [talk](https://www.youtube.com/watch?v=ytEQl9xs8FQ).  
+
 #### Image Processing
 [Talk](https://www.youtube.com/watch?v=Y5GJmnIhvFk)  
 [cv2](https://github.com/skvark/opencv-python) - OpenCV, classical algorithms: [Gaussian Filter](https://docs.opencv.org/3.1.0/d4/d13/tutorial_py_filtering.html), [Morphological Transformations](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html).  
 [scikit-image](https://github.com/scikit-image/scikit-image) - Image processing.  
-[mahotas](http://luispedro.org/software/mahotas/) - Image processing (Bioinformatics), [example](https://github.com/luispedro/python-image-tutorial/blob/master/Segmenting%20cell%20images%20(fluorescent%20microscopy).ipynb).  
-[imagepy](https://github.com/Image-Py/imagepy) - Software package for bioimage analysis.  
-[CellProfiler](https://github.com/CellProfiler/CellProfiler) - Biological image analysis.  
 
 #### Neural Networks  
 
@@ -262,6 +278,7 @@ Feature Visualization: [Blog](https://distill.pub/2017/feature-visualization/), 
 ##### Libs
 [keras](https://keras.io/) - Neural Networks on top of [tensorflow](https://www.tensorflow.org/), [examples](https://gist.github.com/candlewill/552fa102352ccce42fd829ae26277d24).  
 [keras-contrib](https://github.com/keras-team/keras-contrib) - Keras community contributions.  
+[keras-tuner](https://github.com/keras-team/keras-tuner) - Hyperparameter tuning for Keras.  
 [hyperas](https://github.com/maxpumperla/hyperas) - Keras + Hyperopt: Convenient hyperparameter optimization wrapper.  
 [elephas](https://github.com/maxpumperla/elephas) - Distributed Deep learning with Keras & Spark.  
 [tflearn](https://github.com/tflearn/tflearn) - Neural Networks on top of tensorflow.  
@@ -269,13 +286,13 @@ Feature Visualization: [Blog](https://distill.pub/2017/feature-visualization/), 
 [tensorforce](https://github.com/reinforceio/tensorforce) - Tensorflow for applied reinforcement learning.  
 [fastai](https://github.com/fastai/fastai) - Neural Networks in pytorch.  
 [ignite](https://github.com/pytorch/ignite) - Highlevel library for pytorch.  
-[skorch](https://github.com/dnouri/skorch) - Scikit-learn compatible neural network library that wraps pytorch.  
+[skorch](https://github.com/dnouri/skorch) - Scikit-learn compatible neural network library that wraps pytorch, [talk](https://www.youtube.com/watch?v=0J7FaLk0bmQ), [slides](https://github.com/thomasjpfan/skorch_talk).  
 [Detectron](https://github.com/facebookresearch/Detectron) - Object Detection by Facebook.  
 [autokeras](https://github.com/jhfjhfj1/autokeras) - AutoML for deep learning.  
 [simpledet](https://github.com/TuSimple/simpledet) - Object Detection and Instance Recognition.  
 [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) - Plot neural networks.  
 [lucid](https://github.com/tensorflow/lucid) - Neural network interpretability, [Activation Maps](https://openai.com/blog/introducing-activation-atlases/).  
-[AdaBound](https://github.com/Luolc/AdaBound) - Optimizer that trains as fast as Adam and as good as SGD.  
+[AdaBound](https://github.com/Luolc/AdaBound) - Optimizer that trains as fast as Adam and as good as SGD, [alt](https://github.com/titu1994/keras-adabound).  
 [caffe](https://github.com/BVLC/caffe) - Deep learning framework, [pretrained models](https://github.com/BVLC/caffe/wiki/Model-Zoo).    
 [foolbox](https://github.com/bethgelab/foolbox) - Adversarial examples that fool neural networks.  
 [hiddenlayer](https://github.com/waleedka/hiddenlayer) - Training metrics.  
@@ -284,6 +301,7 @@ Feature Visualization: [Blog](https://distill.pub/2017/feature-visualization/), 
 [torchcv](https://github.com/donnyyou/torchcv) - Deep Learning in Computer Vision.  
 
 ##### Applications and Snippets
+[efficientnet](https://github.com/lukemelas/EfficientNet-PyTorch) - Promising neural network architecture.  
 [CycleGAN and Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) - Various image-to-image tasks.  
 [SPADE](https://github.com/nvlabs/spade) - Semantic Image Synthesis.  
 [Entity Embeddings of Categorical Variables](https://arxiv.org/abs/1604.06737), [code](https://github.com/entron/entity-embedding-rossmann), [kaggle](https://www.kaggle.com/aquatic/entity-embedding-neural-net/code)  
@@ -479,7 +497,6 @@ Optometrist algorithm - [paper](https://www.nature.com/articles/s41598-017-06645
 [bbopt](https://github.com/evhub/bbopt) - Black box hyperparameter optimization.  
 [dragonfly](https://github.com/dragonfly/dragonfly) - Scalable Bayesian optimisation.  
 
-
 #### Incremental Learning, Online Learning
 sklearn - [PassiveAggressiveClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveClassifier.html), [PassiveAggressiveRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.PassiveAggressiveRegressor.html).  
 [creme-ml](https://github.com/creme-ml/creme) - Incremental learning framework, [talk](https://www.youtube.com/watch?v=P3M6dt7bY9U).  
@@ -502,12 +519,20 @@ AlphaZero methodology - [1](https://github.com/AppliedDataSciencePartners/DeepRe
 [astroml](https://github.com/astroML/astroML) - ML for astronomical data.  
 
 #### Deployment and Lifecycle Management
+
+##### General
+[pyup](https://github.com/pyupio/pyup) - Python dependency management.  
+[pypi-timemachine](https://github.com/astrofrog/pypi-timemachine) - Install packages with pip as if you were in the past.  
+[pypi2nix] - Fix package versions and create reproducible environments, [Talk](https://www.youtube.com/watch?v=USDbjmxEZ_I).
+
+##### Data Science Related
 [m2cgen](https://github.com/BayesWitnesses/m2cgen) - Transpile trained ML models into other languages.  
 [sklearn-porter](https://github.com/nok/sklearn-porter) - Transpile trained scikit-learn estimators to C, Java, JavaScript and others.  
 [mlflow](https://mlflow.org/) - Manage the machine learning lifecycle, including experimentation, reproducibility and deployment.  
 [modelchimp](https://github.com/ModelChimp/modelchimp) - Experiment Tracking.  
 [skll](https://github.com/EducationalTestingService/skll) - Command-line utilities to make it easier to run machine learning experiments.  
 [BentoML](https://github.com/bentoml/BentoML) - Package and deploy machine learning models for serving in production
+[dvc](https://github.com/iterative/dvc) - Versioning for ML projects.  
 
 #### Math and Background
 Gilbert Strang - [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm)  
@@ -515,7 +540,6 @@ Gilbert Strang - [Matrix Methods in Data Analysis, Signal Processing, and Machin
 ](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)  
 
 #### Other
-[dvc](https://github.com/iterative/dvc) - Versioning for ML projects.  
 [daft](https://github.com/dfm/daft) - Render probabilistic graphical models using matplotlib.  
 [unyt](https://github.com/yt-project/unyt) - Working with units.  
 [scrapy](https://github.com/scrapy/scrapy) - Web scraping library.  
@@ -529,7 +553,6 @@ Gilbert Strang - [Matrix Methods in Data Analysis, Signal Processing, and Machin
 [attrs](https://github.com/python-attrs/attrs) - Python classes without boilerplate.  
 [dateparser](https://dateparser.readthedocs.io/en/latest/) - A better date parser.  
 [jellyfish](https://github.com/jamesturk/jellyfish) - Approximate string matching.   
-[pyup](https://github.com/pyupio/pyup) - Python dependency management.  
 
 #### Blogs
 [Distill.pub](https://distill.pub/) - Blog.
